@@ -15,7 +15,7 @@ edad = int(input("Ingresa tu edad: "))  # Aca se convierte en lo que ingresa el 
 print("Tu edad es", edad)
 
 
-es_mayor = True
+es_mayor = True #Las variables son booleanas
 tiene_licencia = False
 puede_conducir = es_mayor and tiene_licencia
-print(puede_conducir)  # False, porque no tiene licencia
+print(puede_conducir)  # False porque no tiene licencia
